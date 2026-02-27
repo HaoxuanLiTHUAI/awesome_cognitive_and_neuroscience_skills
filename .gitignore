@@ -1,0 +1,37 @@
+# === Claude Code local config ===
+.claude/
+CLAUDE.md
+
+# === Internal team workflow (plans, tasks, decisions) ===
+.team/
+
+# === Source materials (large files, copyright) ===
+sources/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.eggs/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Internal planning docs (future roadmap, not for publish) ===
+docs/
+
+# === Eval internal files (not for display) ===
+examples/annotations/
+examples/CLAUDE.md
+examples/eval/
+pipeline/
+
+# === Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

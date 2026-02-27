@@ -1,0 +1,58 @@
+{
+  "name": "awesome-cognitive-science-skills",
+  "metadata": {
+    "description": "Domain-specific AI skills for cognitive science and neuroscience research. Encodes expert methodological knowledge — experimental paradigms, data analysis pipelines, computational models, and validated parameters.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills"
+  },
+  "owner": {
+    "name": "HaoxuanLiTHUAI"
+  },
+  "plugins": [
+    {
+      "name": "awesome-cognitive-science-skills",
+      "description": "Expert cognitive science and neuroscience skills for AI agents",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/act-r-model-builder",
+        "./skills/alternative-uses-task-designer",
+        "./skills/bayesian-cognitive-model-builder",
+        "./skills/brain-connectivity-modeler",
+        "./skills/calcium-imaging-analysis-guide",
+        "./skills/cognitive-paradigm-design",
+        "./skills/cogsci-power-analysis",
+        "./skills/cogsci-statistics",
+        "./skills/cogsci-visualization",
+        "./skills/creativity-self-efficacy-mediation",
+        "./skills/divergent-thinking-scoring",
+        "./skills/drift-diffusion-model",
+        "./skills/eeg-paradigm-designer",
+        "./skills/eeg-preprocessing-pipeline-guide",
+        "./skills/erp-analysis",
+        "./skills/evidence-accumulation-selector",
+        "./skills/fmri-glm-analysis-guide",
+        "./skills/fmri-preprocessing-pipeline-guide",
+        "./skills/fmri-task-design-guide",
+        "./skills/infant-looking-time-designer",
+        "./skills/lesion-symptom-mapping-guide",
+        "./skills/neural-decoding-analysis",
+        "./skills/neural-population-analysis-guide",
+        "./skills/neuroimaging-power-guide",
+        "./skills/neuroimaging-sample-size-calculator",
+        "./skills/neuropsych-battery-selector",
+        "./skills/optogenetics-protocol-designer",
+        "./skills/paper-to-skill",
+        "./skills/parameter-recovery-checker",
+        "./skills/reading-time-analysis",
+        "./skills/research-literacy",
+        "./skills/self-paced-reading-designer",
+        "./skills/sentence-stimulus-norming",
+        "./skills/signal-detection-analysis",
+        "./skills/spiking-network-model-builder",
+        "./skills/tom-task-selector",
+        "./skills/visual-search-array-generator"
+      ]
+    }
+  ]
+}

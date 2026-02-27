@@ -1,0 +1,6 @@
+# Pipeline dependencies
+# Install with: pip install -r requirements.txt
+
+openai>=1.0.0
+anthropic>=0.18.0
+pyyaml>=6.0

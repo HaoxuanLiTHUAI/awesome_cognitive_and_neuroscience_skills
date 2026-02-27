@@ -1,0 +1,151 @@
+# =============================================================================
+# Pipeline Configuration — config.yaml
+# =============================================================================
+# Copy this file to config.yaml and fill in your settings.
+#   cp config.example.yaml config.yaml
+#
+# IMPORTANT: Never commit config.yaml — it may contain API keys.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# LLM Provider Configuration
+# ---------------------------------------------------------------------------
+# Supported providers: "openai", "anthropic"
+llm:
+  # Which provider to use for API calls
+  provider: "anthropic"
+
+  # API key — set here or via environment variable
+  # If both are set, the environment variable takes precedence.
+  #   - For OpenAI:    export OPENAI_API_KEY="sk-..."
+  #   - For Anthropic: export ANTHROPIC_API_KEY="sk-ant-..."
+  api_key: ""
+
+  # Model identifier
+  # OpenAI examples:    "gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"
+  # Anthropic examples: "claude-sonnet-4-20250514", "claude-opus-4-20250514"
+  model: "claude-sonnet-4-20250514"
+
+  # Base URL override (useful for local/proxy endpoints)
+  # Leave empty to use the provider's default endpoint.
+  # Examples:
+  #   - Local vLLM:  "http://localhost:8000/v1"
+  #   - Azure OpenAI: "https://your-resource.openai.azure.com/"
+  base_url: ""
+
+  # Maximum tokens the model may generate per call (default for stages
+  # without their own max_tokens setting)
+  max_tokens: 4096
+
+  # Sampling temperature (0.0 = deterministic, 1.0 = creative)
+  temperature: 0.2
+
+# ---------------------------------------------------------------------------
+# Input / Output Paths
+# ---------------------------------------------------------------------------
+paths:
+  # Directory containing source text files (.txt, .md) to process
+  input_dir: "./input"
+
+  # Root directory where generated skills will be written
+  # Each skill gets its own subdirectory: <output_dir>/<skill-name>/SKILL.md
+  output_dir: "./skills"
+
+  # Directory where skills that fail hallucination check are moved
+  quarantine_dir: "./quarantine"
+
+# ---------------------------------------------------------------------------
+# Batch Processing Parameters
+# ---------------------------------------------------------------------------
+batch:
+  # Maximum number of concurrent LLM API calls
+  # Set to 1 for sequential processing (safest for rate-limited APIs)
+  concurrency: 3
+
+  # Retry strategy for transient API errors (rate limits, timeouts)
+  max_retries: 3
+
+  # Base delay in seconds between retries (exponential backoff applied)
+  retry_base_delay: 2.0
+
+  # Maximum number of source files to process (0 = unlimited)
+  # Useful for testing with a small subset
+  max_files: 0
+
+  # File extensions to include when scanning the input directory
+  file_extensions:
+    - ".txt"
+    - ".md"
+
+# ---------------------------------------------------------------------------
+# Extraction Settings (applies to Stage 3: Atomic Extraction)
+# ---------------------------------------------------------------------------
+extraction:
+  # Minimum character count for a source file to be processed
+  # Very short files are unlikely to contain extractable methods
+  min_file_length: 500
+
+  # Maximum character count per LLM call
+  # Files exceeding this will be split into chunks
+  max_chunk_size: 100000
+
+  # If true, skip files that have already produced a skill directory in output_dir
+  skip_existing: true
+
+# ---------------------------------------------------------------------------
+# Stage 1: Summarize & Segment (概括分段)
+# ---------------------------------------------------------------------------
+segmentation:
+  # Enable/disable segmentation stage
+  # When disabled, the full text is treated as a single chunk
+  enabled: true
+
+  # Character count threshold for triggering segmentation
+  # Texts shorter than this are treated as a single chunk (single paper length)
+  # Texts longer than this are segmented into logical units via LLM
+  # Recommended: ~15000 chars (roughly one academic paper)
+  char_threshold: 15000
+
+  # Maximum tokens for the segmentation LLM call
+  # Needs to be large enough for the full text analysis + structured output
+  max_tokens: 8192
+
+# ---------------------------------------------------------------------------
+# Stage 2: Suitability Review (适合性筛选)
+# ---------------------------------------------------------------------------
+suitability:
+  # Enable/disable suitability filtering
+  # When disabled, all chunks pass through to extraction
+  enabled: true
+
+  # Strict mode: when true, borderline chunks are marked NOT suitable
+  # Recommended: true for batch processing to reduce noise
+  strict: true
+
+  # Maximum tokens for the suitability evaluation LLM call
+  max_tokens: 4096
+
+# ---------------------------------------------------------------------------
+# Stage 5: Hallucination Check (幻觉检查)
+# ---------------------------------------------------------------------------
+hallucination_check:
+  # Enable/disable hallucination verification
+  # When disabled, generated skills are written directly without verification
+  enabled: true
+
+  # When true, skills that fail the check are moved to quarantine_dir
+  # When false, failed skills stay in output_dir but are logged as warnings
+  quarantine_on_fail: true
+
+  # Maximum tokens for the hallucination check LLM call
+  max_tokens: 4096
+
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+logging:
+  # Logging level: "DEBUG", "INFO", "WARNING", "ERROR"
+  level: "INFO"
+
+  # Path to the log file (empty = log to stderr only)
+  log_file: ""
