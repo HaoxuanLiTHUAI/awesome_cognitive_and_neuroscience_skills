@@ -38,6 +38,8 @@ Manage your installation:
 /plugin remove awesome-cognitive-and-neuroscience-skills           # Uninstall
 ```
 
+**Enable auto-update (recommended):** Keep skills up-to-date automatically — `/plugin` → Marketplace → `awesome-cognitive-and-neuroscience-skills` → Enable auto-update.
+
 Skills may cross-reference each other (e.g., `fmri-preprocessing-pipeline-guide` feeds into `fmri-glm-analysis-guide`), but each skill is independently usable.
 
 ---
@@ -237,6 +239,13 @@ Have expertise to share? Three ways to contribute without leaving your terminal:
 | "verify a skill" | Verify an existing skill's accuracy → GitHub Discussion |
 
 All three meta-skills handle formatting and submission. You review everything before it's posted.
+
+> **One-time setup:** These meta-skills use the [GitHub CLI](https://cli.github.com/) to submit. Install once, login once:
+>
+> ```bash
+> brew install gh   # macOS (or: sudo apt install gh / winget install GitHub.cli)
+> gh auth login
+> ```
 
 Browse community contributions: [Discussions](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions) · [Community Cases](examples/community-cases/)
 

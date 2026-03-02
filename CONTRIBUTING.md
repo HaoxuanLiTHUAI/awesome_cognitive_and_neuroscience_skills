@@ -68,7 +68,19 @@ Domain expert? Help verify AI-generated skills through structured review:
 3. You assess parameters, test against realistic scenarios, and provide expert feedback
 4. The verification report is submitted to [GitHub Discussions > Verification](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions/categories/verification)
 
-> **Note:** Methods 5-7 require the [GitHub CLI](https://cli.github.com/) (`gh`) to be installed and authenticated. If `gh` is not available, the meta-skills will save your contribution as a local file with manual submission instructions.
+> **One-time setup for methods 5-7:**
+>
+> ```bash
+> # Install GitHub CLI: https://cli.github.com/
+> brew install gh        # macOS
+> # or: sudo apt install gh   # Ubuntu/Debian
+> # or: winget install GitHub.cli  # Windows
+>
+> # Login (just once)
+> gh auth login
+> ```
+>
+> That's it. If `gh` is not available, the meta-skills will save your contribution as a local file instead.
 
 ---
 
