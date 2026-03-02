@@ -24,6 +24,7 @@
         "./skills/cogsci-power-analysis",
         "./skills/cogsci-statistics",
         "./skills/cogsci-visualization",
+        "./skills/contribute-skill",
         "./skills/creativity-self-efficacy-mediation",
         "./skills/divergent-thinking-scoring",
         "./skills/drift-diffusion-model",
@@ -48,9 +49,11 @@
         "./skills/research-literacy",
         "./skills/self-paced-reading-designer",
         "./skills/sentence-stimulus-norming",
+        "./skills/share-case",
         "./skills/signal-detection-analysis",
         "./skills/spiking-network-model-builder",
         "./skills/tom-task-selector",
+        "./skills/verify-skill",
         "./skills/visual-search-array-generator"
       ]
     }
