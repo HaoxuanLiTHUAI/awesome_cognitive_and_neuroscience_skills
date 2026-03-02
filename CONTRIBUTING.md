@@ -41,6 +41,35 @@ Before writing, check that your skill encodes genuine domain knowledge (see the 
 
 If you spot an incorrect citation, wrong parameter, or methodological error, [open an issue](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues) using the "Citation/Parameter Error" template.
 
+### 5. Share a Usage Case (No Git Required)
+
+Used a skill in your research? Share your experience directly from Claude Code:
+
+1. After using any skill, say **"share this case"** (or "分享这个案例")
+2. The `share-case` meta-skill guides you through a quick survey and context extraction
+3. You review and control exactly what gets shared
+4. The case is submitted to [GitHub Discussions > Show & Tell](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions/categories/show-tell)
+
+### 6. Contribute a New Skill (No Git Required)
+
+Have domain expertise to share? Generate and submit a skill from your terminal:
+
+1. Say **"contribute a skill"** (or "把这个方法做成 skill")
+2. The `contribute-skill` meta-skill helps you generate a properly formatted SKILL.md
+3. You review the generated skill and approve before submission
+4. The skill is submitted as a [GitHub Issue](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues) for maintainer review
+
+### 7. Verify a Skill Interactively (No Git Required)
+
+Domain expert? Help verify AI-generated skills through structured review:
+
+1. Say **"verify a skill"** (or "验证这个 skill")
+2. The `verify-skill` meta-skill walks you through a 5-phase interactive verification
+3. You assess parameters, test against realistic scenarios, and provide expert feedback
+4. The verification report is submitted to [GitHub Discussions > Verification](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions/categories/verification)
+
+> **Note:** Methods 5-7 require the [GitHub CLI](https://cli.github.com/) (`gh`) to be installed and authenticated. If `gh` is not available, the meta-skills will save your contribution as a local file with manual submission instructions.
+
 ---
 
 ## Skill Writing Requirements
