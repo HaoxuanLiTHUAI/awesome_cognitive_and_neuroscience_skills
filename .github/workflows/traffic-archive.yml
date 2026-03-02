@@ -1,0 +1,105 @@
+name: Archive GitHub Traffic
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC (GitHub only retains 14 days of traffic data)
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch traffic data
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          DATA_DIR=".github/traffic"
+          TODAY=$(date -u +%Y-%m-%d)
+
+          # Fetch views and clones from GitHub API
+          views=$(gh api "repos/${REPO}/traffic/views" 2>/dev/null || echo '{}')
+          clones=$(gh api "repos/${REPO}/traffic/clones" 2>/dev/null || echo '{}')
+          referrers=$(gh api "repos/${REPO}/traffic/popular/referrers" 2>/dev/null || echo '[]')
+          paths=$(gh api "repos/${REPO}/traffic/popular/paths" 2>/dev/null || echo '[]')
+
+          # Also fetch public metrics
+          repo_info=$(gh api "repos/${REPO}" --jq '{stars: .stargazers_count, forks: .forks_count, watchers: .subscribers_count, open_issues: .open_issues_count}' 2>/dev/null || echo '{}')
+
+          # Build today's snapshot
+          snapshot=$(jq -n \
+            --arg date "$TODAY" \
+            --argjson views "$views" \
+            --argjson clones "$clones" \
+            --argjson referrers "$referrers" \
+            --argjson paths "$paths" \
+            --argjson repo "$repo_info" \
+            '{
+              date: $date,
+              views: { count: $views.count, uniques: $views.uniques },
+              clones: { count: $clones.count, uniques: $clones.uniques },
+              top_referrers: $referrers,
+              top_paths: $paths,
+              repo: $repo
+            }')
+
+          # ---- Merge daily breakdowns into cumulative file ----
+          CUMULATIVE="${DATA_DIR}/cumulative.json"
+
+          # Initialize cumulative file if missing
+          if [ ! -f "$CUMULATIVE" ]; then
+            echo '{"daily_views":[],"daily_clones":[]}' > "$CUMULATIVE"
+          fi
+
+          # Extract per-day arrays from API (these cover the last 14 days)
+          views_daily=$(echo "$views" | jq -c '.views // []')
+          clones_daily=$(echo "$clones" | jq -c '.clones // []')
+
+          # Merge: keep existing entries, add/overwrite with fresh data (dedupe by timestamp)
+          jq --argjson new_views "$views_daily" \
+             --argjson new_clones "$clones_daily" '
+            def merge_daily(existing; incoming):
+              (existing + incoming)
+              | group_by(.timestamp)
+              | map(last)
+              | sort_by(.timestamp);
+            {
+              daily_views:  merge_daily(.daily_views;  $new_views),
+              daily_clones: merge_daily(.daily_clones; $new_clones)
+            }
+          ' "$CUMULATIVE" > "${CUMULATIVE}.tmp" && mv "${CUMULATIVE}.tmp" "$CUMULATIVE"
+
+          # ---- Append today's snapshot ----
+          SNAPSHOTS="${DATA_DIR}/snapshots.json"
+          if [ ! -f "$SNAPSHOTS" ]; then
+            echo '[]' > "$SNAPSHOTS"
+          fi
+
+          # Append snapshot, dedupe by date (keep latest if same date)
+          jq --argjson snap "$snapshot" '
+            [.[] | select(.date != $snap.date)] + [$snap]
+            | sort_by(.date)
+          ' "$SNAPSHOTS" > "${SNAPSHOTS}.tmp" && mv "${SNAPSHOTS}.tmp" "$SNAPSHOTS"
+
+          echo "=== Traffic snapshot for ${TODAY} ==="
+          echo "$snapshot" | jq .
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/traffic/
+          if git diff --cached --quiet; then
+            echo "No new traffic data to commit."
+          else
+            git commit -m "chore: archive traffic data $(date -u +%Y-%m-%d)"
+            git push
+          fi
