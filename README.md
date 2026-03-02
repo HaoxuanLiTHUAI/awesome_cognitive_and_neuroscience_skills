@@ -20,7 +20,8 @@
 Install directly in Claude Code — one command:
 
 ```
-/plugin install https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills
+/plugin marketplace add HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills
+/plugin install awesome-cognitive-and-neuroscience-skills@awesome-cognitive-and-neuroscience-skills
 ```
 
 All 40 skills become immediately available. Skills activate automatically when you ask research methodology questions:
