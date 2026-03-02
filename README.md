@@ -7,7 +7,7 @@
 
 **[Quick Start](#quick-start) · [Skills Catalog](#skills-catalog) · [Evaluation](#evaluation) · [Community](#community) · [Call for Contributions](#call-for-contributions)**
 
-> Reusable AI skills that encode expert methodological knowledge for cognitive science and neuroscience research — validated parameters, decision logic, and best practices that a general-purpose AI would get wrong.
+> Skills that encode expert methodological knowledge for cognitive science and neuroscience research. One-command install, one-command contribute — vibe researching starts here.
 
 > **⚠️ AI-Generated Content Notice**
 >
