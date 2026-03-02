@@ -7,7 +7,7 @@
 
 **[Quick Start](#quick-start) · [Skills Catalog](#skills-catalog) · [Evaluation](#evaluation) · [Community](#community) · [Call for Contributions](#call-for-contributions)**
 
-> Skills that encode expert methodological knowledge for cognitive science and neuroscience research. One-command install, one-command contribute — vibe researching starts here.
+> Skills that encode expert methodological knowledge for cognitive science and neuroscience research. One-command install, one-command paper-to-skill, one-command contribute — vibe researching starts here.
 
 > **⚠️ AI-Generated Content Notice**
 >
