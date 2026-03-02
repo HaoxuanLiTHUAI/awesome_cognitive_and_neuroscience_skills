@@ -17,17 +17,10 @@
 
 ## Quick Start
 
-Clone into your Claude Code skills directory:
+Install directly in Claude Code — one command:
 
-```bash
-git clone https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills.git \
-    ~/.claude/skills/awesome-cognitive-and-neuroscience-skills
 ```
-
-Verify installation:
-
-```bash
-ls ~/.claude/skills/awesome-cognitive-and-neuroscience-skills/skills/
+/plugin install https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills
 ```
 
 All 37 skills become immediately available. Skills activate automatically when you ask research methodology questions:
@@ -35,6 +28,15 @@ All 37 skills become immediately available. Skills activate automatically when y
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
 - "Which drift-diffusion model variant fits my task-switching RT data?"
+
+Manage your installation:
+
+```bash
+/plugin list                                                      # View installed plugins and skills
+/plugin update awesome-cognitive-and-neuroscience-skills           # Update to the latest version
+/plugin update --all                                              # (Optional) Update all installed plugins
+/plugin remove awesome-cognitive-and-neuroscience-skills           # Uninstall
+```
 
 Skills may cross-reference each other (e.g., `fmri-preprocessing-pipeline-guide` feeds into `fmri-glm-analysis-guide`), but each skill is independently usable.
 
