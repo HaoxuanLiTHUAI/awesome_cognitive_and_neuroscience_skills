@@ -240,6 +240,8 @@ Have expertise to share? Three ways to contribute without leaving your terminal:
 
 All three meta-skills handle formatting and submission. You review everything before it's posted.
 
+> **Tip:** Multi-phase skills (like `verify-skill`) involve many rounds of conversation. As the context grows longer, the AI may lose track of later steps — especially the final GitHub submission. If you notice the agent has finished reviewing but hasn't submitted, just remind it: *"Please continue with the remaining steps in the skill"* to get it back on track.
+
 > **One-time setup:** These meta-skills use the [GitHub CLI](https://cli.github.com/) to submit. Install once, login once:
 >
 > ```bash
