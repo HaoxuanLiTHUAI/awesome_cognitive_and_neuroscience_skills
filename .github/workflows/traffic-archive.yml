@@ -23,6 +23,7 @@ jobs:
           set -euo pipefail
 
           DATA_DIR=".github/traffic"
+          mkdir -p "$DATA_DIR"
           TODAY=$(date -u +%Y-%m-%d)
 
           # Fetch views and clones from GitHub API
