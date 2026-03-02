@@ -1,5 +1,5 @@
 {
-  "name": "awesome-cognitive-science-skills",
+  "name": "awesome-cognitive-and-neuroscience-skills",
   "metadata": {
     "description": "Domain-specific AI skills for cognitive science and neuroscience research. Encodes expert methodological knowledge — experimental paradigms, data analysis pipelines, computational models, and validated parameters.",
     "version": "0.1.0",
@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "awesome-cognitive-science-skills",
+      "name": "awesome-cognitive-and-neuroscience-skills",
       "description": "Expert cognitive science and neuroscience skills for AI agents",
       "source": "./",
       "strict": false,

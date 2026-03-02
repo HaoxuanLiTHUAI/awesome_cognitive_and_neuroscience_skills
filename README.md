@@ -21,13 +21,13 @@ Clone into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills.git \
-    ~/.claude/skills/awesome-cognitive-neuroscience-skills
+    ~/.claude/skills/awesome-cognitive-and-neuroscience-skills
 ```
 
 Verify installation:
 
 ```bash
-ls ~/.claude/skills/awesome-cognitive-neuroscience-skills/skills/
+ls ~/.claude/skills/awesome-cognitive-and-neuroscience-skills/skills/
 ```
 
 All 37 skills become immediately available. Skills activate automatically when you ask research methodology questions:
@@ -47,7 +47,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 **Rules:**
 
 1. Each skill is assigned to the content domain whose research questions it primarily serves
-2. Skills that substantially serve multiple existing categories are listed in all applicable categories (marked with **†**)
+2. Skills that substantially serve multiple existing categories are listed in all applicable categories
 3. Cross-Domain Foundation skills encode methodology applicable across most or all domains
 4. **Others** contains skills that do not fit neatly into a single content domain — for example, cross-cutting methodology that spans multiple neuroimaging modalities rather than addressing a specific research question
 
@@ -55,7 +55,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Skills Catalog
 
-> **37 skills** across 13 categories · **†** = cross-listed in multiple categories
+> **37 skills** across 13 categories
 
 ### Meta-Skills (1)
 
@@ -107,9 +107,9 @@ Skills are classified primarily by **research content domain** — the scientifi
 |---|---|
 | [`fmri-preprocessing-pipeline-guide`](skills/fmri-preprocessing-pipeline-guide/) | Motion correction, slice timing, normalization, smoothing, QC |
 | [`fmri-glm-analysis-guide`](skills/fmri-glm-analysis-guide/) | GLM specification: HRF, design matrix, contrasts, inference |
-| [`neural-decoding-analysis`](skills/neural-decoding-analysis/) | Decoding, RSA, temporal generalization, encoding models **†** |
+| [`neural-decoding-analysis`](skills/neural-decoding-analysis/) | Decoding, RSA, temporal generalization, encoding models |
 | [`fmri-task-design-guide`](skills/fmri-task-design-guide/) | Block vs. event-related vs. mixed, jittering, design efficiency |
-| [`brain-connectivity-modeler`](skills/brain-connectivity-modeler/) | PPI, DCM, Granger causality, graph theory with selection tree **†** |
+| [`brain-connectivity-modeler`](skills/brain-connectivity-modeler/) | PPI, DCM, Granger causality, graph theory with selection tree |
 
 ### Computational Modeling (3)
 
@@ -125,8 +125,8 @@ Skills are classified primarily by **research content domain** — the scientifi
 |---|---|
 | [`neural-population-analysis-guide`](skills/neural-population-analysis-guide/) | PCA, GPFA, dPCA, jPCA for neural population analysis |
 | [`spiking-network-model-builder`](skills/spiking-network-model-builder/) | LIF/AdEx/HH neurons, synapse models, STDP, connectivity |
-| [`neural-decoding-analysis`](skills/neural-decoding-analysis/) | Decoding, RSA, temporal generalization, encoding models **†** |
-| [`brain-connectivity-modeler`](skills/brain-connectivity-modeler/) | PPI, DCM, Granger causality, graph theory with selection tree **†** |
+| [`neural-decoding-analysis`](skills/neural-decoding-analysis/) | Decoding, RSA, temporal generalization, encoding models |
+| [`brain-connectivity-modeler`](skills/brain-connectivity-modeler/) | PPI, DCM, Granger causality, graph theory with selection tree |
 
 ### Cellular / Molecular Neuroscience (2)
 
