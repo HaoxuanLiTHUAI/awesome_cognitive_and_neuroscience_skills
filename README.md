@@ -244,7 +244,7 @@ All three meta-skills handle formatting and submission. You review everything be
 >
 > ```bash
 > sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
-> gh auth login
+> gh auth login         # authorize your GitHub account
 > ```
 
 Browse community contributions: [Discussions](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions) · [Community Cases](examples/community-cases/)
