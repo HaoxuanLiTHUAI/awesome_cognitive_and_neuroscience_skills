@@ -62,7 +62,20 @@ Before running this skill, verify:
 
 ---
 
-## Interactive Flow (5 Phases)
+## Interactive Flow (6 Phases)
+
+### Progress Tracking (Required)
+
+**At the start of the verification, you MUST create a task list** (using TodoWrite or equivalent) with these items:
+
+- [ ] Phase 1: Cognitive Alignment
+- [ ] Phase 2: Experience Collection
+- [ ] Phase 3: Test Scenario Construction
+- [ ] Phase 4: Item-by-Item Assessment
+- [ ] Phase 5: Apply Corrections to Skill
+- [ ] Phase 6: Generate Report and Submit to GitHub Discussions ← **DO NOT SKIP**
+
+**Mark each item as you complete it.** Do NOT consider the verification complete until ALL items are checked, especially Phase 6 (GitHub submission).
 
 ### Phase 1 — Cognitive Alignment
 
@@ -79,6 +92,8 @@ Before running this skill, verify:
 3. **Ask the reviewer:** "Does this summary match your understanding of the skill? Anything to clarify before we proceed?"
 
 4. **Wait for confirmation** before moving to Phase 2.
+
+> **Next → Phase 2: Experience Collection** (4 remaining phases until GitHub submission)
 
 ### Phase 2 — Experience Collection
 
@@ -107,6 +122,8 @@ Present these questions:
 **Q4: What pitfalls have you encountered that this skill should mention?**
 - Free text — any practical warnings from experience
 
+> **Next → Phase 3: Test Scenario Construction** (3 remaining phases until GitHub submission)
+
 ### Phase 3 — Test Scenario Construction
 
 **Goal:** Test the skill against a realistic scenario to evaluate its practical advice.
@@ -122,6 +139,8 @@ Present these questions:
    - Did the skill give appropriate recommendations for this scenario?
    - Were there any incorrect suggestions?
    - What important advice was missing?
+
+> **Next → Phase 4: Item-by-Item Assessment** (2 remaining phases until GitHub submission)
 
 ### Phase 4 — Item-by-Item Assessment
 
@@ -151,9 +170,38 @@ After all parameters are assessed, collect **overall ratings** (1-5 stars each):
 3. **Practical usefulness** — Would this skill actually help a researcher do better work?
 4. **Pitfall awareness** — Does the skill warn about common mistakes and edge cases?
 
-### Phase 5 — Report Generation and Review
+> **⚠️ CRITICAL: Do NOT stop here. Next → Phase 5: Apply Corrections, then Phase 6: Submit to GitHub Discussions. The verification is NOT complete without submission.**
 
-**Goal:** Generate a structured verification report and submit it.
+### Phase 5 — Apply Corrections
+
+**Goal:** Update the skill based on verification findings.
+
+If Phase 4 produced any ❌ (Incorrect) or ⚠️ (Context-dependent) verdicts:
+
+1. **List all corrections needed** — Summarize what parameters, citations, or methodology need updating based on the reviewer's verdicts.
+
+2. **Apply corrections to the skill's SKILL.md:**
+   - Fix incorrect parameter values (replace with reviewer-provided values and citations)
+   - Add missing caveats or context qualifications for ⚠️ items
+   - Update citations where the reviewer identified errors
+   - Add pitfalls and warnings from the reviewer's experience (Phase 2 Q4)
+
+3. **Update the skill's `review_status`** in the YAML frontmatter:
+   - If the reviewer's familiarity was 4-5 → set to `"expert-verified"`
+   - If the reviewer's familiarity was 2-3 → set to `"community-reviewed"`
+   - If the reviewer's familiarity was 1 → keep as `"ai-generated"`
+
+4. **Commit the changes** with a descriptive message, e.g.: `fix: update [skill-name] parameters per expert verification`
+
+5. **Present the diff to the reviewer** for confirmation.
+
+If Phase 4 produced NO corrections needed (all ✅), skip to Phase 6 but still update `review_status` if appropriate.
+
+> **⚠️ CRITICAL: You are NOT done. You MUST proceed to Phase 6 to submit the verification report to GitHub Discussions.**
+
+### Phase 6 — Report Generation and Submission
+
+**Goal:** Generate a structured verification report and submit it to GitHub Discussions.
 
 1. **Generate the verification report** using the format below.
 
@@ -267,3 +315,17 @@ After successful submission, display the Discussion URL to the reviewer.
 - Whether edge cases and failure modes are exhaustively covered
 
 Flag this distinction clearly in the report.
+
+---
+
+## Completion Checklist
+
+**Before considering this verification COMPLETE, you MUST confirm ALL of the following:**
+
+- [ ] Skill SKILL.md has been updated with corrections (if any ❌/⚠️ verdicts in Phase 4)
+- [ ] `review_status` has been updated in the skill's YAML frontmatter
+- [ ] Changes have been committed to git
+- [ ] Verification report has been submitted to GitHub Discussions (or saved locally if `gh` is unavailable)
+- [ ] Discussion URL (or local file path) has been shown to the reviewer
+
+**If any item above is unchecked, GO BACK and complete it now. Do NOT end the conversation.**
