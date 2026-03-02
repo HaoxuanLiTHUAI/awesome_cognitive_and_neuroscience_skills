@@ -17,12 +17,14 @@
 
 ## Quick Start
 
-Install directly in Claude Code — one command:
+Install directly in Claude Code:
 
 ```
 /plugin marketplace add HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills
 /plugin install awesome-cognitive-and-neuroscience-skills@awesome-cognitive-and-neuroscience-skills
 ```
+
+Then `restart` Claude Code to activate the skills.
 
 All 40 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
