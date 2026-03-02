@@ -1,11 +1,11 @@
 # Awesome Cognitive and Neuroscience Skills
 
-![Skills](https://img.shields.io/badge/skills-37-blue)
+![Skills](https://img.shields.io/badge/skills-40-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Claude%20Code-blueviolet)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
 
-**[Quick Start](#quick-start) · [Skills Catalog](#skills-catalog) · [Evaluation](#evaluation) · [Call for Contributions](#call-for-contributions)**
+**[Quick Start](#quick-start) · [Skills Catalog](#skills-catalog) · [Evaluation](#evaluation) · [Community](#community) · [Call for Contributions](#call-for-contributions)**
 
 > Reusable AI skills that encode expert methodological knowledge for cognitive science and neuroscience research — validated parameters, decision logic, and best practices that a general-purpose AI would get wrong.
 
@@ -23,7 +23,7 @@ Install directly in Claude Code — one command:
 /plugin install https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills
 ```
 
-All 37 skills become immediately available. Skills activate automatically when you ask research methodology questions:
+All 40 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
@@ -57,13 +57,16 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Skills Catalog
 
-> **37 skills** across 13 categories
+> **40 skills** across 13 categories
 
-### Meta-Skills (1)
+### Meta-Skills (4)
 
 | Skill | Description |
 |---|---|
 | [`paper-to-skill`](skills/paper-to-skill/) | Extract methodology from papers into structured, reusable skills |
+| [`share-case`](skills/share-case/) | One-command community case sharing to GitHub Discussions |
+| [`contribute-skill`](skills/contribute-skill/) | One-command skill contribution via GitHub Issues |
+| [`verify-skill`](skills/verify-skill/) | Interactive skill verification with structured expert review |
 
 ### Cross-Domain Foundation (4)
 
@@ -208,6 +211,34 @@ We tested whether skills improve AI methodology advice on three real neuroscienc
 | fMRI RSA | 66.7% | **82.5%** | 66.7% | **85.0%** | 69.2% | 69.2% |
 | Ephys | 27.6% | **62.2%** | 27.6% | **62.2%** | 39.7% | **64.1%** |
 | **Δ (uplift)** | | **+9.0 / +15.8 / +34.6** | | **+9.0 / +18.3 / +34.6** | | **-3.8 / 0.0 / +24.4** |
+
+---
+
+## Community
+
+### Share Your Experience
+
+Used a skill in your research? Share your case directly from Claude Code — no Git required:
+
+```
+"share this case"
+```
+
+The [`share-case`](skills/share-case/) meta-skill captures your experience and submits it to [GitHub Discussions](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions). You control exactly what gets shared.
+
+### Contribute Domain Knowledge
+
+Have expertise to share? Three ways to contribute without leaving your terminal:
+
+| Say this | What happens |
+|---|---|
+| "share this case" | Share a usage experience → GitHub Discussion |
+| "contribute a skill" | Generate and submit a new skill → GitHub Issue |
+| "verify a skill" | Verify an existing skill's accuracy → GitHub Discussion |
+
+All three meta-skills handle formatting and submission. You review everything before it's posted.
+
+Browse community contributions: [Discussions](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions) · [Community Cases](examples/community-cases/)
 
 ---
 
