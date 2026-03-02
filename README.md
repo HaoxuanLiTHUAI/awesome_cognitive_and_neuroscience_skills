@@ -243,7 +243,7 @@ All three meta-skills handle formatting and submission. You review everything be
 > **One-time setup:** These meta-skills use the [GitHub CLI](https://cli.github.com/) to submit. Install once, login once:
 >
 > ```bash
-> brew install gh   # macOS (or: sudo apt install gh / winget install GitHub.cli)
+> sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
 > gh auth login
 > ```
 

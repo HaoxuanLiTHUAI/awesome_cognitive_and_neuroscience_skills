@@ -71,12 +71,7 @@ Domain expert? Help verify AI-generated skills through structured review:
 > **One-time setup for methods 5-7:**
 >
 > ```bash
-> # Install GitHub CLI: https://cli.github.com/
-> brew install gh        # macOS
-> # or: sudo apt install gh   # Ubuntu/Debian
-> # or: winget install GitHub.cli  # Windows
->
-> # Login (just once)
+> sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
 > gh auth login
 > ```
 >
