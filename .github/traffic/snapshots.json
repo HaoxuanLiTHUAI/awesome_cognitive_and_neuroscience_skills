@@ -1,0 +1,88 @@
+[
+  {
+    "date": "2026-03-02",
+    "views": {
+      "count": 30,
+      "uniques": 1
+    },
+    "clones": {
+      "count": 0,
+      "uniques": 0
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 24,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/CLAUDE.md",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/sources",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/sources/tools",
+        "title": "awesome_cognitive_and_neuroscience_skills/sources at master · HaoxuanLiTHUAI/...",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/.claude-plugin/marketplace.json",
+        "title": "awesome_cognitive_and_neuroscience_skills/.claude-plugin at master · HaoxuanL...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/docs/skill-template.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/docs/taxonomy.md at master · Haoxua...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/docs/taxonomy.md",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/paper-to-skill/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/paper-to-skill/references at...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/sources/registry.yaml",
+        "title": "awesome_cognitive_and_neuroscience_skills/sources at master · HaoxuanLiTHUAI/...",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 0,
+      "watchers": 0
+    }
+  }
+]
