@@ -220,8 +220,15 @@ We tested whether skills improve AI methodology advice on three real neuroscienc
 
 ### Share Your Experience
 
-Used a skill in your research? Share your case directly from Claude Code — no Git required:
+Used a skill in your research? Share your case directly from Claude Code and with Github CLI:
 
+> **One-time setup:** These meta-skills use the [GitHub CLI](https://cli.github.com/) to submit. Install once, login once:
+> ```bash
+> sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
+> gh auth login         # authorize your GitHub account
+> ```
+
+Example:
 ```
 "share this case"
 ```
@@ -242,13 +249,6 @@ All three meta-skills handle formatting and submission. You review everything be
 
 > **Tip:** Multi-phase skills (like `verify-skill`) involve many rounds of conversation. As the context grows longer, the AI may lose track of later steps — especially the final GitHub submission. If you notice the agent has finished reviewing but hasn't submitted, just remind it: *"Please continue with the remaining steps in the skill"* to get it back on track.
 
-> **One-time setup:** These meta-skills use the [GitHub CLI](https://cli.github.com/) to submit. Install once, login once:
->
-> ```bash
-> sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
-> gh auth login         # authorize your GitHub account
-> ```
-
 Browse community contributions: [Discussions](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions) · [Community Cases](examples/community-cases/)
 
 ---
@@ -261,8 +261,6 @@ All skills are currently `ai-generated` and await community verification. We wel
 - **Researchers** to spot-check citations and numerical parameters
 - **Practitioners** to test skills in real analysis workflows and report issues
 - **New skills** in domains not yet covered (e.g., affective science, embodied cognition, neuroethics)
-
-Each skill carries a `review_status` field (`ai-generated` → `community-reviewed` → `expert-verified`). **Verification priority:** clinical/neuropsychology and preprocessing pipelines (high) > analysis and experimental design (medium) > computational modeling and meta-skills (standard).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines, including how to verify citations, submit new skills, and report errors.
 
