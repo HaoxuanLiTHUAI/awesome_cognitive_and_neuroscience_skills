@@ -188,7 +188,7 @@ Use the AskUserQuestion tool to gather optional information:
 - Header: "Action"
 - Question: "What would you like to do with the report?"
 - Options:
-  - "Save locally and show GitHub Discussion link (Recommended)"
+  - "Share to GitHub Discussions (Recommended)"
   - "Save locally only"
   - "Just preview, don't save"
 
@@ -228,7 +228,19 @@ Create the markdown report with this exact format:
 *This report was generated using the `share-usage` skill. All data is anonymized.*
 ```
 
-### Step 5: Save and Present
+### Step 5: Check GitHub CLI Prerequisites
+
+Before offering to share, check if `gh` CLI is available:
+
+```bash
+gh auth status
+```
+
+If `gh` is not installed or not authenticated, inform the user:
+> To share usage reports directly, you need the GitHub CLI. Install it from https://cli.github.com/ and run `gh auth login`.
+> I can save the report locally for you to post manually, or you can set up `gh` and run this skill again.
+
+### Step 6: Save and Present
 
 1. **Save the report** to the current working directory as `skill-usage-report-[YYYYMMDD].md`
 
@@ -236,18 +248,56 @@ Create the markdown report with this exact format:
 
 3. **Provide next steps** based on user's preference:
 
-   - If "Save locally and show GitHub Discussion link":
+   - If "Share to GitHub Discussions" (and `gh` is available):
+
+     Get repository and category IDs:
+     ```bash
+     gh api graphql -f query='
+     {
+       repository(owner: "HaoxuanLiTHUAI", name: "awesome_cognitive_and_neuroscience_skills") {
+         id
+         discussionCategories(first: 10) {
+           nodes {
+             id
+             name
+           }
+         }
+       }
+     }'
+     ```
+
+     Create the discussion:
+     ```bash
+     gh api graphql -f query='
+     mutation {
+       createDiscussion(input: {
+         repositoryId: "REPO_ID",
+         categoryId: "SHOW_AND_TELL_CATEGORY_ID",
+         title: "Skill Usage Report - [Research Domain]",
+         body: "REPORT_CONTENT_HERE"
+       }) {
+         discussion {
+           url
+         }
+       }
+     }'
+     ```
+
+     On success:
      ```
      ✅ Report saved to: skill-usage-report-[date].md
+     🎉 Shared to GitHub Discussions: [URL]
 
-     📤 To share with the community:
-     1. Review the report above
-     2. Optionally edit the file to refine your comments
-     3. Visit: https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions/new?category=show-and-tell
-     4. Copy and paste your report
-     5. Add a title like "Skill Usage Report - [Your Domain]"
+     Thank you for contributing to the community!
+     ```
 
-     Thank you for contributing to the community! 🎉
+     On failure:
+     ```
+     ✅ Report saved to: skill-usage-report-[date].md
+     ❌ Failed to post to GitHub Discussions
+
+     You can manually share at:
+     https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions/new?category=show-and-tell
      ```
 
    - If "Save locally only":
@@ -266,7 +316,7 @@ Create the markdown report with this exact format:
      If you'd like to save or share this later, just run this skill again!
      ```
 
-### Step 6: Handle Edge Cases
+### Step 7: Handle Edge Cases
 
 **If no skill usage found:**
 ```
