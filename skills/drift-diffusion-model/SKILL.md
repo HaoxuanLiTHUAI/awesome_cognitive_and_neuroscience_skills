@@ -1,5 +1,5 @@
 ---
-name: "Drift-Diffusion Model (DDM)"
+name: "Drift-Diffusion Model"
 description: "Expert guidance on selecting, fitting, and evaluating drift-diffusion models for two-choice response time data in cognitive science"
 domain: "computational-cognitive-modeling"
 version: "1.0.0"
@@ -15,7 +15,7 @@ dependencies:
 review_status: "ai-generated"
 ---
 
-# Drift-Diffusion Model (DDM)
+# Drift-Diffusion Model
 
 ## Purpose
 
