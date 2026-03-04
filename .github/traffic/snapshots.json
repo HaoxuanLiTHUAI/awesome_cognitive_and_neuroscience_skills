@@ -170,5 +170,91 @@
       "stars": 9,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-03-04",
+    "views": {
+      "count": 264,
+      "uniques": 59
+    },
+    "clones": {
+      "count": 67,
+      "uniques": 43
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 59,
+        "uniques": 6
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 89,
+        "uniques": 32
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "GitHub - HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 12,
+        "uniques": 7
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/calcium-imaging-analysis-guide",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/calcium-imaging-analysis-gui...",
+        "count": 8,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 7,
+        "uniques": 6
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/actions/workflows/traffic-archive.yml",
+        "title": "Archive GitHub Traffic · Workflow runs · HaoxuanLiTHUAI/awesome_cognitive_and...",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/spiking-network-model-builder/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/spiking-network-model-builde...",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/brain-connectivity-modeler",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills at master · HaoxuanLiTHUAI/a...",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/cogsci-visualization",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/cogsci-visualization at mast...",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/spiking-network-model-builder",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/spiking-network-model-builde...",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/commits/master",
+        "title": "Commits · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills · GitHub",
+        "count": 4,
+        "uniques": 2
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 9,
+      "watchers": 0
+    }
   }
 ]
