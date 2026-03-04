@@ -1,6 +1,6 @@
 # Awesome Cognitive and Neuroscience Skills
 
-![Skills](https://img.shields.io/badge/skills-40-blue)
+![Skills](https://img.shields.io/badge/skills-41-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Claude%20Code-blueviolet)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
@@ -8,6 +8,8 @@
 **[Quick Start](#quick-start) · [Skills Catalog](#skills-catalog) · [Evaluation](#evaluation) · [Community](#community) · [Call for Contributions](#call-for-contributions)**
 
 > Skills that encode expert methodological knowledge for cognitive science and neuroscience research. One-command install, one-command paper-to-skill, one-command contribute — vibe researching starts here.
+>
+> **Vibe research**: Complete specialized research subtasks (experimental design, data preprocessing, visualization, etc.) through conversational CLI interaction — no manual searching through documentation or papers.
 
 > **⚠️ AI-Generated Content Notice**
 >
@@ -26,7 +28,7 @@ Install directly in Claude Code:
 
 Then `restart` Claude Code to activate the skills.
 
-All 40 skills become immediately available. Skills activate automatically when you ask research methodology questions:
+All 41 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
@@ -62,14 +64,15 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Skills Catalog
 
-> **40 skills** across 13 categories
+> **41 skills** across 13 categories
 
-### Meta-Skills (4)
+### Meta-Skills (5)
 
 | Skill | Description |
 |---|---|
 | [`paper-to-skill`](skills/paper-to-skill/) | Extract methodology from papers into structured, reusable skills |
 | [`share-case`](skills/share-case/) | One-command community case sharing to GitHub Discussions |
+| [`share-usage`](skills/share-usage/) | Share anonymized skill usage statistics to help prioritize development |
 | [`contribute-skill`](skills/contribute-skill/) | One-command skill contribution via GitHub Issues |
 | [`verify-skill`](skills/verify-skill/) | Interactive skill verification with structured expert review |
 
@@ -223,32 +226,38 @@ We tested whether skills improve AI methodology advice on three real neuroscienc
 
 ### Share Your Experience
 
-Used a skill in your research? Share your case directly from Claude Code and with Github CLI:
+Used a skill in your research? Share your case directly from Claude Code:
 
-> **One-time setup:** These meta-skills use the [GitHub CLI](https://cli.github.com/) to submit. Install once, login once:
-> ```bash
-> sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
-> gh auth login         # authorize your GitHub account
-> ```
-
-Example:
 ```
 "share this case"
 ```
 
 The [`share-case`](skills/share-case/) meta-skill captures your experience and submits it to [GitHub Discussions](https://github.com/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/discussions). You control exactly what gets shared.
 
+**Two submission methods:**
+
+1. **Direct submission via `gh` CLI** (Recommended — one command, instant submission)
+   ```bash
+   sudo apt install gh   # Ubuntu/Debian — other OS see https://cli.github.com/
+   gh auth login         # authorize your GitHub account (one-time setup)
+   ```
+
+2. **Browser submission** (No installation required — opens GitHub in browser, you copy and paste)
+
+The skill automatically detects which method is available and lets you choose.
+
 ### Contribute Domain Knowledge
 
-Have expertise to share? Three ways to contribute without leaving your terminal:
+Have expertise to share? Three ways to contribute:
 
 | Say this | What happens |
 |---|---|
 | "share this case" | Share a usage experience → GitHub Discussion |
+| "share my skill usage" | Share anonymized usage statistics → GitHub Discussion |
 | "contribute a skill" | Generate and submit a new skill → GitHub Issue |
 | "verify a skill" | Verify an existing skill's accuracy → GitHub Discussion |
 
-All three meta-skills handle formatting and submission. You review everything before it's posted.
+All meta-skills support both **`gh` CLI** (one-command submission) and **browser** (manual copy-paste) methods. You review everything before it's posted.
 
 > **Tip:** Multi-phase skills (like `verify-skill`) involve many rounds of conversation. As the context grows longer, the AI may lose track of later steps — especially the final GitHub submission. If you notice the agent has finished reviewing but hasn't submitted, just remind it: *"Please continue with the remaining steps in the skill"* to get it back on track.
 
