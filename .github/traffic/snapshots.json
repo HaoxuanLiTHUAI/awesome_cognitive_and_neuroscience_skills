@@ -256,5 +256,96 @@
       "stars": 9,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-03-05",
+    "views": {
+      "count": 398,
+      "uniques": 78
+    },
+    "clones": {
+      "count": 275,
+      "uniques": 151
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 116,
+        "uniques": 12
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 141,
+        "uniques": 50
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 18,
+        "uniques": 9
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues",
+        "title": "GitHub · Where software is built",
+        "count": 16,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 12,
+        "uniques": 8
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/calcium-imaging-analysis-guide",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/calcium-imaging-analysis-gui...",
+        "count": 9,
+        "uniques": 4
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues/6",
+        "title": "[Fix] Rename skill name from 'Drift-Diffusion Model (DDM)' to 'Drift-Diffusio...",
+        "count": 9,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/commits/master",
+        "title": "Commits · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 6,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/graphs/traffic",
+        "title": "Traffic · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 6,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/actions/workflows/traffic-archive.yml",
+        "title": "Archive GitHub Traffic · Workflow runs · HaoxuanLiTHUAI/awesome_cognitive_and...",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/drift-diffusion-model/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/drift-diffusion-model at mas...",
+        "count": 5,
+        "uniques": 1
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 10,
+      "watchers": 0
+    }
   }
 ]
