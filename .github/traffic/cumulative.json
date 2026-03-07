@@ -89,6 +89,11 @@
       "timestamp": "2026-03-05T00:00:00Z",
       "count": 22,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-03-06T00:00:00Z",
+      "count": 5,
+      "uniques": 1
     }
   ],
   "daily_clones": [
@@ -181,6 +186,11 @@
       "timestamp": "2026-03-05T00:00:00Z",
       "count": 41,
       "uniques": 32
+    },
+    {
+      "timestamp": "2026-03-06T00:00:00Z",
+      "count": 84,
+      "uniques": 62
     }
   ]
 }
