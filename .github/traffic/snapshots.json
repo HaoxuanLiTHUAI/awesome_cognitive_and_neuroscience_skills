@@ -1191,5 +1191,101 @@
       "stars": 10,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-03-15",
+    "views": {
+      "count": 458,
+      "uniques": 104
+    },
+    "clones": {
+      "count": 932,
+      "uniques": 625
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 135,
+        "uniques": 25
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 163,
+        "uniques": 63
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 23,
+        "uniques": 12
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 17,
+        "uniques": 11
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues",
+        "title": "GitHub · Where software is built",
+        "count": 16,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/calcium-imaging-analysis-guide",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/calcium-imaging-analysis-gui...",
+        "count": 9,
+        "uniques": 4
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues/6",
+        "title": "[Fix] Rename skill name from 'Drift-Diffusion Model (DDM)' to 'Drift-Diffusio...",
+        "count": 9,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/graphs/traffic",
+        "title": "Traffic · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 9,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/165e4d77d61d2ae51d914c7af623678c6fefef16",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills at 165e4d77d61d2ae51...",
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/pulse",
+        "title": "Pulse · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 8,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/commits/master",
+        "title": "Commits · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 6,
+        "uniques": 3
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 10,
+      "watchers": 0
+    }
   }
 ]
