@@ -1383,5 +1383,106 @@
       "stars": 10,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-03-17",
+    "views": {
+      "count": 249,
+      "uniques": 59
+    },
+    "clones": {
+      "count": 997,
+      "uniques": 685
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 82,
+        "uniques": 22
+      },
+      {
+        "referrer": "aicarrier.feishu.cn",
+        "count": 21,
+        "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 88,
+        "uniques": 44
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 18,
+        "uniques": 8
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "GitHub - HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills · GitHub",
+        "count": 18,
+        "uniques": 7
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues",
+        "title": "GitHub · Where software is built",
+        "count": 14,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues/6",
+        "title": "[Fix] Rename skill name from 'Drift-Diffusion Model (DDM)' to 'Drift-Diffusio...",
+        "count": 9,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/165e4d77d61d2ae51d914c7af623678c6fefef16",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills at 165e4d77d61d2ae51...",
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/graphs/traffic",
+        "title": "Traffic · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 8,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/pulse",
+        "title": "Pulse · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 7,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/drift-diffusion-model/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/drift-diffusion-model at mas...",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/paper-to-skill/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/paper-to-skill at master · H...",
+        "count": 4,
+        "uniques": 2
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 10,
+      "watchers": 0
+    }
   }
 ]
