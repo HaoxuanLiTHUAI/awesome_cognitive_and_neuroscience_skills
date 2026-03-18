@@ -1484,5 +1484,106 @@
       "stars": 10,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-03-18",
+    "views": {
+      "count": 148,
+      "uniques": 46
+    },
+    "clones": {
+      "count": 956,
+      "uniques": 681
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 39,
+        "uniques": 19
+      },
+      {
+        "referrer": "aicarrier.feishu.cn",
+        "count": 22,
+        "uniques": 2
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 50,
+        "uniques": 31
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "GitHub - HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills · GitHub",
+        "count": 16,
+        "uniques": 6
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 15,
+        "uniques": 8
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/165e4d77d61d2ae51d914c7af623678c6fefef16",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills at 165e4d77d61d2ae51...",
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/README.md",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues",
+        "title": "GitHub · Where software is built",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/eeg-preprocessing-pipeline-guide",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/eeg-preprocessing-pipeline-g...",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/haoxuanlithuai/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/graphs/traffic",
+        "title": "Traffic · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/pulse",
+        "title": "Pulse · HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 3,
+        "uniques": 1
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 12,
+      "watchers": 0
+    }
   }
 ]
