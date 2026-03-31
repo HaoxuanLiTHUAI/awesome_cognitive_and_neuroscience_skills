@@ -2767,5 +2767,101 @@
       "stars": 15,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-03-31",
+    "views": {
+      "count": 59,
+      "uniques": 34
+    },
+    "clones": {
+      "count": 509,
+      "uniques": 257
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 26,
+        "uniques": 8
+      },
+      {
+        "referrer": "aicarrier.feishu.cn",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 37,
+        "uniques": 28
+      },
+      {
+        "path": "/haoxuanlithuai/awesome_cognitive_and_neuroscience_skills",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 5,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues",
+        "title": "GitHub · Where software is built",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills at master · HaoxuanLiTHUAI/a...",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/README.md",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/signal-detection-analysis",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/signal-detection-analysis/references/application-guide.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/signal-detection-analysis/re...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/tom-task-selector/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/tom-task-selector at master ...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/issues/6",
+        "title": "[Fix] Rename skill name from 'Drift-Diffusion Model (DDM)' to 'Drift-Diffusio...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "GitHub - HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills · GitHub",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 15,
+      "watchers": 0
+    }
   }
 ]
