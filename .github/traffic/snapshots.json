@@ -2863,5 +2863,101 @@
       "stars": 15,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-04-01",
+    "views": {
+      "count": 46,
+      "uniques": 32
+    },
+    "clones": {
+      "count": 483,
+      "uniques": 230
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 16,
+        "uniques": 7
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "aicarrier.feishu.cn",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "GitHub - HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills · GitHub",
+        "count": 32,
+        "uniques": 25
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills at master · HaoxuanLiTHUAI/a...",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/cogsci-visualization/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/cogsci-visualization at mast...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/signal-detection-analysis",
+        "title": "HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/signal-detection-analysis/references/application-guide.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/signal-detection-analysis/re...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/tom-task-selector/SKILL.md",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/tom-task-selector at master ...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/main/skills/parameter-recovery-checker",
+        "title": "File not found",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master",
+        "title": "GitHub - HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills · GitHub",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/cogsci-visualization",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/cogsci-visualization at mast...",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills/optogenetics-protocol-designer",
+        "title": "awesome_cognitive_and_neuroscience_skills/skills/optogenetics-protocol-design...",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 15,
+      "watchers": 0
+    }
   }
 ]
