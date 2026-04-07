@@ -3394,5 +3394,91 @@
       "stars": 15,
       "watchers": 0
     }
+  },
+  {
+    "date": "2026-04-07",
+    "views": {
+      "count": 41,
+      "uniques": 24
+    },
+    "clones": {
+      "count": 418,
+      "uniques": 201
+    },
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 16,
+        "uniques": 8
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills",
+        "title": "Overview",
+        "count": 19,
+        "uniques": 15
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/tree/master/skills",
+        "title": "/tree/master/skills",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/bayesian-cognitive-model-builder/SKILL.md",
+        "title": "/blob/master/skills/bayesian-cognitive-model-builder/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/cogsci-statistics/SKILL.md",
+        "title": "/blob/master/skills/cogsci-statistics/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/cogsci-visualization/SKILL.md",
+        "title": "/blob/master/skills/cogsci-visualization/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/paper-to-skill/SKILL.md",
+        "title": "/blob/master/skills/paper-to-skill/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/signal-detection-analysis",
+        "title": "/blob/master/skills/signal-detection-analysis",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/signal-detection-analysis/references/application-guide.md",
+        "title": "/blob/master/skills/signal-detection-analysis/references/application-guide.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/blob/master/skills/tom-task-selector/SKILL.md",
+        "title": "/blob/master/skills/tom-task-selector/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/HaoxuanLiTHUAI/awesome_cognitive_and_neuroscience_skills/releases/tag/v1.0",
+        "title": "/releases/tag/v1.0",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "repo": {
+      "forks": 0,
+      "open_issues": 0,
+      "stars": 16,
+      "watchers": 0
+    }
   }
 ]
