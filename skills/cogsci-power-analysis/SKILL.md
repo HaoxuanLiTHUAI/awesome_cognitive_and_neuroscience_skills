@@ -1,5 +1,5 @@
 ---
-name: "Cognitive Science Power Analysis"
+name: "cogsci-power-analysis"
 description: "Domain-specific statistical power analysis guidance for cognitive and neuroscience research, encoding effect size priors and sample size recommendations by modality"
 domain: "research-methods"
 version: "1.0.0"

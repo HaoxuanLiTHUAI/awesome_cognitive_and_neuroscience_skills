@@ -1,5 +1,5 @@
 ---
-name: "Share Case"
+name: "share-case"
 description: "One-command community case sharing — capture research context from your session and submit to GitHub Discussions"
 domain: "meta-skill"
 version: "1.0.0"

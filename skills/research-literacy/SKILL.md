@@ -1,5 +1,5 @@
 ---
-name: "Research Literacy"
+name: "research-literacy"
 description: "Core scientific methodology principles: research planning, method justification, assumption checking, and human-in-the-loop decision making for cognitive science and neuroscience"
 domain: "research-methods"
 version: "1.0.0"

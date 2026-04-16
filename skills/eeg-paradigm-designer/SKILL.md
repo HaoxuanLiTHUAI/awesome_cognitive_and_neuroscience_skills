@@ -1,5 +1,5 @@
 ---
-name: "EEG Paradigm Designer"
+name: "eeg-paradigm-designer"
 description: "Expert guidance for designing EEG paradigms optimized to isolate specific ERP components, with domain-validated timing, trial count, and control condition parameters"
 domain: "cognitive-neuroscience"
 version: "1.0.0"

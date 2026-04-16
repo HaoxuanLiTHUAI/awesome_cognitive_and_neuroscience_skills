@@ -1,5 +1,5 @@
 ---
-name: "Neuroimaging Power Guide"
+name: "neuroimaging-power-guide"
 description: "Sample-size planning for fMRI/EEG studies using effect-size benchmarks and simulation-based power"
 domain: "cross-cutting-methodology"
 version: "1.0.0"

@@ -1,5 +1,5 @@
 ---
-name: "Signal Detection Analysis"
+name: "signal-detection-analysis"
 description: "Domain-validated decision logic, formulas, and interpretation guidelines for applying Signal Detection Theory to cognitive science data"
 domain: "cognitive-psychology"
 version: "1.0.0"

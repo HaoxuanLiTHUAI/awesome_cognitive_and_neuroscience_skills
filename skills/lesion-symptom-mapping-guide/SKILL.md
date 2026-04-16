@@ -1,5 +1,5 @@
 ---
-name: "Lesion-Symptom Mapping Guide"
+name: "lesion-symptom-mapping-guide"
 description: "Advises on lesion-symptom mapping methods: VLSM, disconnection analysis, network lesion mapping"
 domain: "clinical-neuroscience"
 version: "1.0.0"

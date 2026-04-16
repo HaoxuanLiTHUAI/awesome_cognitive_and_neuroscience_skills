@@ -1,5 +1,5 @@
 ---
-name: "ERP Data Analysis"
+name: "erp-analysis"
 description: "Domain-validated pipeline and parameter guidance for event-related potential analysis, from preprocessing through statistical testing"
 domain: "cognitive-neuroscience"
 version: "1.0.0"

@@ -1,5 +1,5 @@
 ---
-name: "Calcium Imaging Analysis Guide"
+name: "calcium-imaging-analysis-guide"
 description: "Domain-validated pipeline guidance for calcium imaging data analysis: motion correction, ROI extraction, neuropil correction, spike inference, and quality control"
 domain: "cellular-molecular-neuroscience"
 version: "1.0.0"

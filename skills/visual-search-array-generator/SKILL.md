@@ -1,5 +1,5 @@
 ---
-name: "Visual Search Array Generator"
+name: "visual-search-array-generator"
 description: "Specifies display parameters, set sizes, target-distractor similarity, and randomization constraints for visual search experiments"
 domain: "cognitive-psychology"
 version: "1.0.0"

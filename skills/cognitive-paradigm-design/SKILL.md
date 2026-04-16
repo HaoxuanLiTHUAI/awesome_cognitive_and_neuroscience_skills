@@ -1,5 +1,5 @@
 ---
-name: "Cognitive Paradigm Design"
+name: "cognitive-paradigm-design"
 description: "Expert guidance for selecting and parameterizing cognitive psychology experimental paradigms based on research questions"
 domain: "cognitive-experimental-methods"
 version: "1.0.0"

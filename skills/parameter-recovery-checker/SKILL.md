@@ -1,5 +1,5 @@
 ---
-name: "Parameter Recovery Checker"
+name: "parameter-recovery-checker"
 description: "Guides parameter recovery studies to validate model identifiability before trusting fitted parameter values"
 domain: "computational-cognitive-modeling"
 version: "1.0.0"

@@ -1,5 +1,5 @@
 ---
-name: "fMRI Task Design Guide"
+name: "fmri-task-design-guide"
 description: "Guides fMRI task design: block vs. event-related vs. mixed; jittering; contrasts; power for BOLD detection"
 domain: "cognitive-neuroscience"
 version: "1.0.0"

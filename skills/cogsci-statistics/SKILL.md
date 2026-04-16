@@ -1,5 +1,5 @@
 ---
-name: "Cognitive Science Statistical Analysis"
+name: "cogsci-statistics"
 description: "Domain-specific statistical modeling guidance for cognitive science and neuroscience, encoding when and how to apply mixed models, correction methods, Bayesian approaches, and effect size reporting"
 domain: "research-methods"
 version: "1.0.0"

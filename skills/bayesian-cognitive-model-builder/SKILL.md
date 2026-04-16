@@ -1,5 +1,5 @@
 ---
-name: "Bayesian Cognitive Model Builder"
+name: "bayesian-cognitive-model-builder"
 description: "Domain-validated guidance for building hierarchical Bayesian cognitive models with Stan/PyMC: prior specification, model structure, MCMC diagnostics, and posterior predictive checks"
 domain: "computational-cognitive-modeling"
 version: "1.0.0"

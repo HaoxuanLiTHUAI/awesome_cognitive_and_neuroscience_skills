@@ -1,5 +1,5 @@
 ---
-name: "Neural Population Analysis Guide"
+name: "neural-population-analysis-guide"
 description: "Guides dimensionality reduction and latent-variable analysis of neural populations (PCA, GPFA, dPCA)"
 domain: "computational-neuroscience"
 version: "1.0.0"

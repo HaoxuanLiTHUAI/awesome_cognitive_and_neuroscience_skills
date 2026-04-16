@@ -1,5 +1,5 @@
 ---
-name: "Sentence Stimulus Norming"
+name: "sentence-stimulus-norming"
 description: "Specifies norming procedures for linguistic stimuli including cloze probability, plausibility ratings, acceptability judgments, and lexical controls"
 domain: "psycholinguistics"
 version: "1.0.0"

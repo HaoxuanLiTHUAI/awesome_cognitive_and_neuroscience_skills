@@ -1,5 +1,5 @@
 ---
-name: "Drift-Diffusion Model"
+name: "drift-diffusion-model"
 description: "Expert guidance on selecting, fitting, and evaluating drift-diffusion models for two-choice response time data in cognitive science"
 domain: "computational-cognitive-modeling"
 version: "1.0.0"

@@ -1,5 +1,5 @@
 ---
-name: "fMRI Preprocessing Pipeline Guide"
+name: "fmri-preprocessing-pipeline-guide"
 description: "Domain-validated guidance for fMRI preprocessing decisions: motion correction, slice timing, spatial normalization, smoothing, confound regression, and quality control"
 domain: "neuroimaging-methodology"
 version: "1.0.0"

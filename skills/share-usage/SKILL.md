@@ -1,5 +1,5 @@
 ---
-name: "Share Skill Usage Statistics"
+name: "share-usage"
 description: "Generate and share anonymized skill usage statistics to help the community understand which skills are most valuable"
 review_status: "ai-generated"
 version: "1.0.0"

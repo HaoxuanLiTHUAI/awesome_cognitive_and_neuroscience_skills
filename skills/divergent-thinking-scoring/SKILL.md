@@ -1,5 +1,5 @@
 ---
-name: "Divergent Thinking Scoring"
+name: "divergent-thinking-scoring"
 description: "Domain-validated multi-dimensional scoring system for divergent thinking tasks, including fluency, flexibility, originality, and automated semantic distance methods"
 domain: "cognitive-psychology"
 version: "1.0.0"

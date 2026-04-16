@@ -1,5 +1,5 @@
 ---
-name: "Verify Skill"
+name: "verify-skill"
 description: "Interactive skill verification — assess accuracy of parameters, citations, and methodology through structured expert review"
 domain: "meta-skill"
 version: "1.0.0"

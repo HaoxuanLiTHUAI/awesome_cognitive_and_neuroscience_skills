@@ -1,5 +1,5 @@
 ---
-name: "Theory of Mind Task Selector"
+name: "tom-task-selector"
 description: "Selects Theory of Mind tasks matched to target population, age, and construct with psychometric guidance"
 domain: "social-cognition"
 version: "1.0.0"
