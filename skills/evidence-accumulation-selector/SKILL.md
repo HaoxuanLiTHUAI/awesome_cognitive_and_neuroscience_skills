@@ -1,5 +1,5 @@
 ---
-name: "Evidence Accumulation Model Selector"
+name: "evidence-accumulation-selector"
 description: "Advises on when to use DDM vs. LBA vs. race models for choice-RT data based on experimental design and research goals"
 domain: "cognitive-psychology"
 version: "1.0.0"

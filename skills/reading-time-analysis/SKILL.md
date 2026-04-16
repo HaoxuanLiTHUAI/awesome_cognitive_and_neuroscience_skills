@@ -1,5 +1,5 @@
 ---
-name: "Reading Time Analysis"
+name: "reading-time-analysis"
 description: "Guides analysis of eye-tracking reading measures including first fixation, gaze duration, regression path, and total reading time"
 domain: "psycholinguistics"
 version: "1.0.0"

@@ -1,5 +1,5 @@
 ---
-name: "Neuropsychological Battery Selector"
+name: "neuropsych-battery-selector"
 description: "Domain-validated decision logic for selecting neuropsychological test batteries matched to suspected cognitive deficit profiles"
 domain: "clinical-neuroscience"
 authors:

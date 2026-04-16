@@ -1,5 +1,5 @@
 ---
-name: "Contribute Skill"
+name: "contribute-skill"
 description: "One-command skill contribution — generate a SKILL.md from your domain expertise and submit to GitHub Issues for maintainer review"
 domain: "meta-skill"
 version: "1.0.0"

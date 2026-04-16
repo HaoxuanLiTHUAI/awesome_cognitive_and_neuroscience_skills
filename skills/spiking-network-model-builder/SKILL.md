@@ -1,5 +1,5 @@
 ---
-name: "Spiking Network Model Builder"
+name: "spiking-network-model-builder"
 description: "Assists building spiking neural network simulations: neuron models, connectivity, plasticity rules"
 domain: "computational-neuroscience"
 version: "1.0.0"

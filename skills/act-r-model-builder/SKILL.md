@@ -1,5 +1,5 @@
 ---
-name: "ACT-R Model Builder"
+name: "act-r-model-builder"
 description: "Guides ACT-R cognitive model construction: chunk types, production rules, subsymbolic parameters, and model validation"
 domain: "computational-cognitive-modeling"
 version: "1.0.0"

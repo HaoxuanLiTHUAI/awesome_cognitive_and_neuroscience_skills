@@ -1,5 +1,5 @@
 ---
-name: "Neuroimaging Sample Size Calculator"
+name: "neuroimaging-sample-size-calculator"
 description: "Simulation-based sample-size planning for neuroimaging studies using effect-size maps"
 domain: "cross-cutting-methodology"
 version: "1.0.0"

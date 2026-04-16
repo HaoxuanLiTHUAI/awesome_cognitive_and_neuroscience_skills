@@ -1,5 +1,5 @@
 ---
-name: "Brain Connectivity Modeler"
+name: "brain-connectivity-modeler"
 description: "Advises on functional/effective connectivity methods: PPI, DCM, Granger causality, graph theory"
 domain: "cognitive-neuroscience"
 version: "1.0.0"

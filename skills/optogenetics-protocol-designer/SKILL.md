@@ -1,5 +1,5 @@
 ---
-name: "Optogenetics Protocol Designer"
+name: "optogenetics-protocol-designer"
 description: "Domain-validated decision logic for optogenetic stimulation parameter selection, including opsin choice, light delivery, pulse protocols, fiber placement, and control conditions"
 domain: "cellular-molecular-neuroscience"
 authors:

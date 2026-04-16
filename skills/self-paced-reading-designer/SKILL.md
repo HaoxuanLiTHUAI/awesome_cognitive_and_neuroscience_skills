@@ -1,5 +1,5 @@
 ---
-name: "Self-Paced Reading Designer"
+name: "self-paced-reading-designer"
 description: "Expert guidance for designing self-paced reading experiments: region segmentation, timing parameters, comprehension probes, and spillover analysis"
 domain: "psycholinguistics"
 version: "1.0.0"

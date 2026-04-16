@@ -1,5 +1,5 @@
 ---
-name: "Paper-to-Skill Extractor"
+name: "paper-to-skill"
 description: "Interactive skill that guides extraction of research paradigms and methodological techniques from cognitive science papers into structured, reusable skills"
 domain: "meta-skill"
 version: "1.0.0"
@@ -289,6 +289,7 @@ Every generated skill must pass these checks before saving:
 
 - [ ] **File name**: The core file is named exactly `SKILL.md` (uppercase) — not `skill.md`, `Skill.md`, or any other variant
 - [ ] **Directory name**: Uses kebab-case (lowercase, hyphen-separated) — e.g., `mmn-oddball-paradigm/`, not `MMN_Oddball_Paradigm/`
+- [ ] **Skill name**: The `name` field in YAML frontmatter may only contain lowercase letters, numbers, and hyphens, and must match the folder name — e.g., folder `mmn-oddball-paradigm/` → `name: "mmn-oddball-paradigm"`
 - [ ] **YAML frontmatter**: Contains at minimum `name` (human-readable) and `description` (one-sentence summary) fields
 - [ ] **Papers field**: Frontmatter includes a `papers` field listing the source paper(s) in "Author, Year" format
 - [ ] **Dependencies field**: Frontmatter includes `dependencies.required: [research-literacy]` (all domain skills require this)

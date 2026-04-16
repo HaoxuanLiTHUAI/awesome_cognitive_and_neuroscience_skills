@@ -1,5 +1,5 @@
 ---
-name: "Neural Population Decoding Analysis"
+name: "neural-decoding-analysis"
 description: "Domain-validated methods and decision logic for neural decoding, RSA, temporal generalization, and encoding models in systems neuroscience"
 domain: "systems-neuroscience"
 version: "1.0.0"

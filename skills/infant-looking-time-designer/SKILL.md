@@ -1,5 +1,5 @@
 ---
-name: "Infant Looking Time Paradigm Designer"
+name: "infant-looking-time-designer"
 description: "Designs habituation and preferential-looking paradigms with age-appropriate timing parameters and exclusion criteria"
 domain: "developmental-cognition"
 version: "1.0.0"

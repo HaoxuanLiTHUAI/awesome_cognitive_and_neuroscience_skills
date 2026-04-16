@@ -1,5 +1,5 @@
 ---
-name: "Alternative Uses Task Designer"
+name: "alternative-uses-task-designer"
 description: "Domain-validated guidance for designing Alternative Uses Task (AUT) experiments measuring divergent thinking, with parameters for AI-augmented and traditional conditions"
 domain: "cognitive-psychology"
 version: "1.0.0"

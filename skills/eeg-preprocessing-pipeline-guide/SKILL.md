@@ -1,5 +1,5 @@
 ---
-name: "EEG Preprocessing Pipeline Guide"
+name: "eeg-preprocessing-pipeline-guide"
 description: "Guides EEG preprocessing: filtering, artifact rejection (ICA/ASR), re-referencing, interpolation"
 domain: "neuroimaging-methodology"
 version: "1.0.0"

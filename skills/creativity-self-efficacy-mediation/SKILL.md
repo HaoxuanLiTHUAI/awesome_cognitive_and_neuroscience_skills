@@ -1,5 +1,5 @@
 ---
-name: "Creativity Self-Efficacy Mediation Analysis"
+name: "creativity-self-efficacy-mediation"
 description: "Domain-validated guidance for SEM-based mediation analysis of creative self-efficacy and moderation by baseline creativity in AI-augmented creativity research"
 domain: "cognitive-psychology"
 version: "1.0.0"

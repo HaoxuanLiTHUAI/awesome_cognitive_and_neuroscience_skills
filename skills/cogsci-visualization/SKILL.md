@@ -1,5 +1,5 @@
 ---
-name: "Cognitive Science Visualization"
+name: "cogsci-visualization"
 description: "Domain-specific visualization best practices for cognitive and neuroscience data, encoding plot type selection, color standards, and publication formatting"
 domain: "research-methods"
 version: "1.0.0"

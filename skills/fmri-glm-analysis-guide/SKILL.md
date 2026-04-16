@@ -1,5 +1,5 @@
 ---
-name: "fMRI GLM Analysis Guide"
+name: "fmri-glm-analysis-guide"
 description: "Domain-validated guidance for fMRI General Linear Model specification: HRF modeling, design matrix construction, contrast definition, confound regression, and statistical inference"
 domain: "cognitive-neuroscience"
 version: "1.0.0"
