@@ -1,6 +1,6 @@
 # Awesome Cognitive and Neuroscience Skills
 
-![Skills](https://img.shields.io/badge/skills-41-blue)
+![Skills](https://img.shields.io/badge/skills-45-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Claude%20Code-blueviolet)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
@@ -28,7 +28,7 @@ Install directly in Claude Code:
 
 Then `restart` Claude Code to activate the skills.
 
-All 41 skills become immediately available. Skills activate automatically when you ask research methodology questions:
+All 45 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
@@ -64,13 +64,15 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Skills Catalog
 
-> **41 skills** across 13 categories
+> **45 skills** across 13 categories
 
-### Meta-Skills (5)
+### Meta-Skills (7)
 
 | Skill | Description |
 |---|---|
 | [`paper-to-skill`](skills/paper-to-skill/) | Extract methodology from papers into structured, reusable skills |
+| [`repo-to-skill`](skills/repo-to-skill/) | Convert a GitHub repo or local codebase into a structured Claude Code skill |
+| [`contribute-skills-via-pr`](skills/contribute-skills-via-pr/) | Step-by-step guidance for contributing a new skill via GitHub Pull Request |
 | [`share-case`](skills/share-case/) | One-command community case sharing to GitHub Discussions |
 | [`share-usage`](skills/share-usage/) | Share anonymized skill usage statistics to help prioritize development |
 | [`contribute-skill`](skills/contribute-skill/) | One-command skill contribution via GitHub Issues |
@@ -106,15 +108,16 @@ Skills are classified primarily by **research content domain** — the scientifi
 | [`reading-time-analysis`](skills/reading-time-analysis/) | Eye-tracking measures (FFD, GD, go-past, TRT) and LMM modeling |
 | [`sentence-stimulus-norming`](skills/sentence-stimulus-norming/) | Cloze probability, plausibility, acceptability, and counterbalancing |
 
-### EEG / ERP (3)
+### EEG / ERP (4)
 
 | Skill | Description |
 |---|---|
 | [`erp-analysis`](skills/erp-analysis/) | ERP pipeline from preprocessing through statistical testing |
 | [`eeg-paradigm-designer`](skills/eeg-paradigm-designer/) | EEG paradigm design to isolate specific ERP components |
 | [`eeg-preprocessing-pipeline-guide`](skills/eeg-preprocessing-pipeline-guide/) | Filtering, ICA/ASR, re-referencing, interpolation, QC |
+| [`mne-python-guide`](skills/mne-python-guide/) | MNE-Python pipeline: loading, preprocessing, epoching, ERP/ERF, time-frequency, source localization, decoding |
 
-### fMRI / Neuroimaging (5)
+### fMRI / Neuroimaging (6)
 
 | Skill | Description |
 |---|---|
@@ -123,6 +126,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 | [`neural-decoding-analysis`](skills/neural-decoding-analysis/) | Decoding, RSA, temporal generalization, encoding models |
 | [`fmri-task-design-guide`](skills/fmri-task-design-guide/) | Block vs. event-related vs. mixed, jittering, design efficiency |
 | [`brain-connectivity-modeler`](skills/brain-connectivity-modeler/) | PPI, DCM, Granger causality, graph theory with selection tree |
+| [`pycortex-guide`](skills/pycortex-guide/) | Cortical surface visualization: flatmaps, WebGL viewers, volume-to-surface mapping, FreeSurfer/fMRIPrep integration |
 
 ### Computational Modeling (3)
 
@@ -180,7 +184,12 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Build Your Own Skills
 
-Use the [`paper-to-skill`](skills/paper-to-skill/) meta-skill interactively — provide a paper (PDF or text) in your Claude Code session and it scaffolds a first-draft SKILL.md for you to refine. See [CONTRIBUTING.md](CONTRIBUTING.md) for skill authoring conventions (naming, citation format, required frontmatter).
+Two meta-skills help you create new skills:
+
+- [`paper-to-skill`](skills/paper-to-skill/) — provide a paper (PDF or text) and it scaffolds a first-draft SKILL.md from the methodology
+- [`repo-to-skill`](skills/repo-to-skill/) — provide a GitHub URL or local repo path and it converts the codebase into a structured skill
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for skill authoring conventions (naming, citation format, required frontmatter).
 
 ---
 
@@ -248,13 +257,14 @@ The skill automatically detects which method is available and lets you choose.
 
 ### Contribute Domain Knowledge
 
-Have expertise to share? Three ways to contribute:
+Have expertise to share? Ways to contribute:
 
 | Say this | What happens |
 |---|---|
 | "share this case" | Share a usage experience → GitHub Discussion |
 | "share my skill usage" | Share anonymized usage statistics → GitHub Discussion |
 | "contribute a skill" | Generate and submit a new skill → GitHub Issue |
+| "contribute a skill via PR" | Full PR workflow with SKILL.md format guidance → GitHub Pull Request |
 | "verify a skill" | Verify an existing skill's accuracy → GitHub Discussion |
 
 All meta-skills support both **`gh` CLI** (one-command submission) and **browser** (manual copy-paste) methods. You review everything before it's posted.
