@@ -28,7 +28,7 @@ Install directly in Claude Code:
 
 Then `restart` Claude Code to activate the skills.
 
-All 45 skills become immediately available. Skills activate automatically when you ask research methodology questions:
+All 46 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
@@ -127,6 +127,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 | [`fmri-task-design-guide`](skills/fmri-task-design-guide/) | Block vs. event-related vs. mixed, jittering, design efficiency |
 | [`brain-connectivity-modeler`](skills/brain-connectivity-modeler/) | PPI, DCM, Granger causality, graph theory with selection tree |
 | [`pycortex-guide`](skills/pycortex-guide/) | Cortical surface visualization: flatmaps, WebGL viewers, volume-to-surface mapping, FreeSurfer/fMRIPrep integration |
+| [`netneurotools-guide`](skills/netneurotools-guide/) | Network neuroscience toolbox: brain graph construction, connectome analysis, network metrics, surrogate networks, and neuroimaging workflow utilities for fMRI/structural connectivity research |
 
 ### Computational Modeling (3)
 
