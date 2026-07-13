@@ -1,6 +1,6 @@
 # Awesome Cognitive and Neuroscience Skills
 
-![Skills](https://img.shields.io/badge/skills-45-blue)
+![Skills](https://img.shields.io/badge/skills-46-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Claude%20Code-blueviolet)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
@@ -28,7 +28,7 @@ Install directly in Claude Code:
 
 Then `restart` Claude Code to activate the skills.
 
-All 46 skills become immediately available. Skills activate automatically when you ask research methodology questions:
+All 47 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
@@ -64,7 +64,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Skills Catalog
 
-> **45 skills** across 13 categories
+> **46 skills** across 13 categories
 
 ### Meta-Skills (7)
 
@@ -117,11 +117,12 @@ Skills are classified primarily by **research content domain** — the scientifi
 | [`eeg-preprocessing-pipeline-guide`](skills/eeg-preprocessing-pipeline-guide/) | Filtering, ICA/ASR, re-referencing, interpolation, QC |
 | [`mne-python-guide`](skills/mne-python-guide/) | MNE-Python pipeline: loading, preprocessing, epoching, ERP/ERF, time-frequency, source localization, decoding |
 
-### fMRI / Neuroimaging (6)
+### fMRI / Neuroimaging (7)
 
 | Skill | Description |
 |---|---|
 | [`fmri-preprocessing-pipeline-guide`](skills/fmri-preprocessing-pipeline-guide/) | Motion correction, slice timing, normalization, smoothing, QC |
+| [`fmriprep`](skills/fmriprep/) | Run fMRIPrep (25.2.x LTS) end-to-end: Docker/Apptainer/pip install, CLI flags, workflow internals, output spaces & CIFTI, SDC/fieldmaps, confounds table, BIDS filters, troubleshooting, citations |
 | [`fmri-glm-analysis-guide`](skills/fmri-glm-analysis-guide/) | GLM specification: HRF, design matrix, contrasts, inference |
 | [`neural-decoding-analysis`](skills/neural-decoding-analysis/) | Decoding, RSA, temporal generalization, encoding models |
 | [`fmri-task-design-guide`](skills/fmri-task-design-guide/) | Block vs. event-related vs. mixed, jittering, design efficiency |
