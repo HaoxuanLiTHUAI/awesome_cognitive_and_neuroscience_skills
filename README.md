@@ -1,6 +1,6 @@
 # Awesome Cognitive and Neuroscience Skills
 
-![Skills](https://img.shields.io/badge/skills-46-blue)
+![Skills](https://img.shields.io/badge/skills-50-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Claude%20Code-blueviolet)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
@@ -28,7 +28,7 @@ Install directly in Claude Code:
 
 Then `restart` Claude Code to activate the skills.
 
-All 47 skills become immediately available. Skills activate automatically when you ask research methodology questions:
+All 50 skills become immediately available. Skills activate automatically when you ask research methodology questions:
 
 - "Help me design an oddball paradigm for N400 research"
 - "What preprocessing pipeline should I use for my fMRI data?"
@@ -64,7 +64,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 
 ## Skills Catalog
 
-> **46 skills** across 13 categories
+> **50 skills** across 16 categories
 
 ### Meta-Skills (7)
 
@@ -117,7 +117,7 @@ Skills are classified primarily by **research content domain** — the scientifi
 | [`eeg-preprocessing-pipeline-guide`](skills/eeg-preprocessing-pipeline-guide/) | Filtering, ICA/ASR, re-referencing, interpolation, QC |
 | [`mne-python-guide`](skills/mne-python-guide/) | MNE-Python pipeline: loading, preprocessing, epoching, ERP/ERF, time-frequency, source localization, decoding |
 
-### fMRI / Neuroimaging (7)
+### fMRI / Neuroimaging (8)
 
 | Skill | Description |
 |---|---|
@@ -154,6 +154,12 @@ Skills are classified primarily by **research content domain** — the scientifi
 | [`calcium-imaging-analysis-guide`](skills/calcium-imaging-analysis-guide/) | Motion correction, ROI extraction, neuropil correction, spike inference |
 | [`optogenetics-protocol-designer`](skills/optogenetics-protocol-designer/) | Opsin choice, light delivery, pulse protocols, fiber placement |
 
+### Electrophysiology (1)
+
+| Skill | Description |
+|---|---|
+| [`spikeinterface-skill`](skills/spikeinterface-skill/) | Extracellular electrophysiology pipeline with SpikeInterface: extractors for ~40 acquisition formats, preprocessing, spike sorters (Kilosort family, Mountainsort, SpykingCircus, Tridesclous, Lupin, HerdingSpikes) via native or Docker/Singularity runs, `SortingAnalyzer` post-processing, quality metrics, curation, comparison, plot_* widgets, export to Phy/IBL/Pynapple |
+
 ### Clinical / Neuropsychology (2)
 
 | Skill | Description |
@@ -172,6 +178,18 @@ Skills are classified primarily by **research content domain** — the scientifi
 | Skill | Description |
 |---|---|
 | [`tom-task-selector`](skills/tom-task-selector/) | ToM task selection by population, age, and construct |
+
+### Animal Behavior (1)
+
+| Skill | Description |
+|---|---|
+| [`deeplabcut`](skills/deeplabcut/) | Markerless animal pose estimation with DeepLabCut: single/multi-animal tracking, SuperAnimal pretrained models, 2D/3D pose, keypoint labeling GUI, model training/evaluation, video analysis |
+
+### Writing (1)
+
+| Skill | Description |
+|---|---|
+| [`markdown-report-writing`](skills/markdown-report-writing/) | Guide for well-structured, visually polished Markdown reports across GitHub and Obsidian: three-layer writing model, Mermaid diagrams, math, tables, callouts, cross-renderer compatibility |
 
 ### Others (2)
 
